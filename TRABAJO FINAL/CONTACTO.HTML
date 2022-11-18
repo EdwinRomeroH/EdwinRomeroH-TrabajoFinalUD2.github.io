@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <link rel="icon" href="IMG/LOGOIMG.png">
+    <title>O-O INTI GLASS</title>
+    <link rel="stylesheet" href="ESTILOS.CSS">
+    <script src="javascriptf.js"></script>
+    <script src="CSS/jquery-3.6.1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    
+  </head>
+  <body class="p-3 m-0 border-0 bd-example">
+    
+    <nav class="navbar bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="IMG/LOGOIMG.png" alt="Bootstrap" width="200" height="100">
+          </a>
+        <header>
+			<nav>
+				<a href="WEB-INTI.HTML">Inicio</a>
+				<a href="CATALOGO.HTML">Catálogo</a>
+				<a href="CONTACTO.HTML">Contacto</a>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
+          <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z"/>
+        </svg>
+			</nav>
+		</header>
+     
+    <main>
+
+      <!-- Agregar un componente button group de bootstrap -->
+      <button id="BotonAccion" type="button" class="btn btn-dark">Ocultar/Mostrar Formulario</button>
+
+        <form action="" id="Formulario">
+            <h1>FORMULARIO CONTACTO</h1>
+            <hr>
+
+            <!-- Grupo: Nombres -->
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nombres</label>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                    <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                  </svg>
+                <input type="text" class="form-control" id="name" placeholder="First name" required>
+              </div>
+
+              <!-- Grupo: Apellidos-->
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Apellidos</label>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-plus" viewBox="0 0 16 16">
+                    <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H1s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C9.516 10.68 8.289 10 6 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                    <path fill-rule="evenodd" d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z"/>
+                  </svg>
+                <input type="text" class="form-control" id="lastname" placeholder="Last name" required>
+              </div>
+
+              <!-- Grupo: Correo-->
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Correo</label>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope-plus" viewBox="0 0 16 16">
+                    <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2-7-4.2Z"/>
+                    <path d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-3.5-2a.5.5 0 0 0-.5.5v1h-1a.5.5 0 0 0 0 1h1v1a.5.5 0 0 0 1 0v-1h1a.5.5 0 0 0 0-1h-1v-1a.5.5 0 0 0-.5-.5Z"/>
+                  </svg>
+                <input type="email" class="form-control" id="email" placeholder="Email Address" required>
+              </div>
+              
+              <!-- Grupo: Género-->
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Género</label>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-gender-ambiguous" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M11.5 1a.5.5 0 0 1 0-1h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-3.45 3.45A4 4 0 0 1 8.5 10.97V13H10a.5.5 0 0 1 0 1H8.5v1.5a.5.5 0 0 1-1 0V14H6a.5.5 0 0 1 0-1h1.5v-2.03a4 4 0 1 1 3.471-6.648L14.293 1H11.5zm-.997 4.346a3 3 0 1 0-5.006 3.309 3 3 0 0 0 5.006-3.31z"/>
+                </svg>
+                 <br>
+                 <label><input type="radio" name="radioName" value="Femenino" /> Femenino</label> 
+                 <label><input type="radio" name="radioName" value="Masculino" /> Masculino</label> 
+              </div>
+
+
+             
+
+              <!-- Grupo: Fecha de Nacimiento-->
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Fecha de Nacimiento</label>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-calendar-day" viewBox="0 0 16 16">
+                  <path d="M4.684 11.523v-2.3h2.261v-.61H4.684V6.801h2.464v-.61H4v5.332h.684zm3.296 0h.676V8.98c0-.554.227-1.007.953-1.007.125 0 .258.004.329.015v-.613a1.806 1.806 0 0 0-.254-.02c-.582 0-.891.32-1.012.567h-.02v-.504H7.98v4.105zm2.805-5.093c0 .238.192.425.43.425a.428.428 0 1 0 0-.855.426.426 0 0 0-.43.43zm.094 5.093h.672V7.418h-.672v4.105z"/>
+                  <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                </svg>
+                  <input type="date" class="form-control" id="date" required/>
+              </div>
+
+              <!--Grupo: Botón-->
+              <div class="formulario__grupo-btn-enviar">
+                <button type="submit" class="formulario__btn" onclick="datos()">ENVIAR</button>
+              </div>
+        </form>
+    </main>
+    <!-- utilizar las librería de jQuery -->
+    <script>
+      $(function () {
+      let miCard = $('#Formulario');
+      var estado = false;
+      
+      $('#BotonAccion').click(function () {
+      if (estado) {
+      miCard.show();
+      } else {
+      miCard.hide();
+      }
+      estado = !estado;
+      });
+      });
+      </script>
+    
+    <img src="IMG/CAR1.jpg" class="d-block w-100" alt="...">
+
+<br>
+<hr>
+<div class="container text-white bg-dark p-4">
+  <div class="row">
+    <div class="col-6 col-md-8 col-lg-7">
+      <div class="row text-center">
+        <div class="col-sm-6 col-md-4 col-lg-4 col-12">
+          <ul class="list-unstyled">
+            <li class="btn-link"> <a>Link </a> </li>
+            <li class="btn-link"> <a>Link </a> </li>
+           
+          </ul>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 col-12">
+          <ul class="list-unstyled">
+            <li class="btn-link"> <a>Link </a> </li>
+            <li class="btn-link"> <a>Link </a> </li>
+          
+          </ul>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 col-12">
+          <ul class="list-unstyled">
+            <li class="btn-link"> <a>Link </a> </li>
+            <li class="btn-link"> <a>Link </a> </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-lg-5 col-6">
+      <address>
+        <strong>IntiGlass, Inc.</strong><br>
+        PERÚ <br>
+        PERÚ, WA, 975993330<br>
+        <abbr title="Phone">PHONE:</abbr> 975993330
+      </address>
+      <address>
+        <strong>CORREO</strong><br>
+        <a href="mailto:#">edwinrohu@gmail.com</a>
+      </address>
+    </div>
+  </div>
+</div>
+
+<footer class="text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <p> Copyright © CRomero. All rights reserved. Edwin Esli Romero Huaman.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="../js/jquery-3.4.1.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../js/popper.min.js"></script>
+<script src="../js/bootstrap-4.4.1.js"></script>
+
+  </body>
+</html>
